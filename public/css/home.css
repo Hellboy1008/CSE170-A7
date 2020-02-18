@@ -12,41 +12,57 @@ html {
 }
 
 .headertxt {
-    font-family: "Times New Roman", Times, serif;
+    font-family: 'Open Sans', sans-serif;
     margin-left: 200px;
-    font-weight: bold;
+    font-weight: 300;
+    letter-spacing: 2px;
     position: relative;
 }
 
 .description {
-    font-family: "Times New Roman", Times, serif;
-    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
 }
 
 .user-name {
-    font-family: "Times New Roman", Times, serif;
-    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
     text-align: center;
 }
 
 .links {
     display: inline-block;
-    color: blue;
+}
+
+.new-releases {
+    color: #FF7100;
+}
+
+.trending {
+    color: #064BDE;
+}
+
+.contact {
+    color: #00D8D0;
 }
 
 .links a {
-    color: blue;
+    color: #FFA900;
 }
 
 .dropdown-menu {
     float: unset;
     text-align: center;
     border-radius: 0px;
-    border: 1px solid black;
+    border: 1px solid #FFA900;
 }
 
 .dropdown-menu .botborder {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #FFA900;
+}
+
+.dropdown-menu li a {
+    color: #FFA900;
 }
 
 .centerimg {
@@ -112,8 +128,8 @@ html {
         top: 40px;
     }
     .description {
-        font-size: 20px;
-        margin-top: 10px;
+        font-size: 18px;
+        margin-top: 15px;
         text-align: center;
     }
     .user-name {
@@ -141,8 +157,8 @@ html {
         margin-top: 20px;
         margin-left: 40px;
     }
-    .contacts {
-        margin-left: 130px;
+    .contact {
+        margin-left: 120px;
     }
     .searchbar {
         padding-top: 70px;

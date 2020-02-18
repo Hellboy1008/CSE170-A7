@@ -2,16 +2,16 @@
 
 <head>
 
-	<title>Data Board - Coup</title>
+	<title>Data Board - {{title}}</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="css/bootstrap.css" rel="stylesheet">
 	<link href="css/bootstrap-theme.css" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link href="css/game.css" rel="stylesheet">
+	<link href="css/categories.css" rel="stylesheet">
 	<script src="js/jquery-1.11.0.js"></script>
 	<script src="js/bootstrap.js"></script>
-	<script src="js/game.js"></script>
+	<script src="js/categories.js"></script>
 
 </head>
 
@@ -20,7 +20,7 @@
 	<h2 class="header">DATABOARD</h2>
 
 	<form class="header searchbar" action="#">
-		<input type="text" placeholder="Search..">
+		<input type="text" placeholder="Search for games">
 		<button type="submit"><i class="fa fa-search"></i></button>
 	</form>
 
@@ -41,23 +41,22 @@
 	</div>
 
 	<input class="back-btn" type="button" value="<< back" onClick="history.go(-1);">
-	<h1 class="gametitle"> COUP </h1>
+	<h1 class="category-title"> {{title}} </h1>
 
-	<button class="buy-game"
-		onclick="window.open('https://www.amazon.com/Indie-Boards-and-Cards-COU1IBC/dp/B00GDI4HX4','_blank');">Buy</button>
-	<p class="game-rating">Rating 4.8/5</p>
-	<img class="gamepic"
-		src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSQ3hlvXNoAJEkNEEmdpeHaPWlbOfgHQldsum7EUU0kKmNGBaF8"></img>
+	{{#each games}}
+	<div class="game">
+		<img class="gamepic" src="{{imageURL}}"></img>
+		<p class="gamedescription">
+			<span class="gametitle">{{name}}</span>
+			<br><br>
+			{{category-description}}
+		</p>
+	</div>
 
-	<p class="gamedescription">In Coup, you want to be the last player with influence in the game, with influence being
-		represented by face-down character cards in your playing area. Each player starts the game with two coins and
-		two influence – i.e., two face-down character cards; the fifteen
-		card deck consists of three copies of five different characters, each with a unique set of powers.</p>
-
-	<a class="gamemanual" target="_blank" href="https://herebegames.com.au/rulebooks/Coup-Rules.pdf">Link To Manual</a>
-
-	<iframe class="gamevid" width="240" height="160" src="https://www.youtube.com/embed/a8bY3zI9FL4">
-	</iframe>
+	<button class="user-btn" onclick="window.location.href = '{{viewURL}}';">View</button>
+	<button class="user-btn buy-game" onclick="window.open('{{buyURL}}','_blank');">Buy</button>
+	<p class="game-rating">Rating: {{rating}}</p>
+	{{/each}}
 
 </body>
 

@@ -9,17 +9,9 @@ var handlebars = require('express3-handlebars')
 
 var index = require('./routes/index');
 var home = require('./routes/home');
-var new_releases = require('./routes/new_releases');
-var trending = require('./routes/trending');
-var party = require('./routes/party');
-var family = require('./routes/family');
-var card = require('./routes/card');
-var kids = require('./routes/kids');
+var categories = require('./routes/categories');
 var contact = require('./routes/contact');
-var game_TSOC = require('./routes/game_TSOC');
-var game_Exploding_Kittens = require('./routes/game_Exploding-Kittens');
-var game_Monopoly = require('./routes/game_Monopoly');
-var game_Coup = require('./routes/game_Coup');
+var game = require('./routes/game');
 // Example route
 // var user = require('./routes/user');
 
@@ -47,17 +39,17 @@ if ('development' == app.get('env')) {
 
 app.get('/', index.view);
 app.get('/home', home.view);
-app.get('/new_releases', new_releases.view);
-app.get('/trending', trending.view);
-app.get('/party', party.view);
-app.get('/family', family.view);
-app.get('/card', card.view);
-app.get('/kids', kids.view);
+app.get('/new_releases', categories.viewNewReleases);
+app.get('/trending', categories.viewTrending);
+app.get('/party', categories.viewParty);
+app.get('/family', categories.viewFamily);
+app.get('/card', categories.viewCard);
+app.get('/kids', categories.viewKids);
 app.get('/contact', contact.view);
-app.get('/The_Settlers_Of_Catan', game_TSOC.view);
-app.get('/Exploding_Kittens', game_Exploding_Kittens.view);
-app.get('/Monopoly', game_Monopoly.view);
-app.get('/Coup', game_Coup.view);
+app.get('/The_Settlers_Of_Catan', game.viewTheSettlersOfCatan);
+app.get('/Exploding_Kittens', game.viewExplodingKittens);
+app.get('/Monopoly', game.viewMonopoly);
+app.get('/Coup', game.viewCoup);
 // Example route
 // app.get('/users', user.list);
 

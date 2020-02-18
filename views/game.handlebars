@@ -2,7 +2,7 @@
 
 <head>
 
-	<title>Data Board - Exploding Kittens</title>
+	<title>Data Board - {{name}}</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="css/bootstrap.css" rel="stylesheet">
@@ -41,24 +41,18 @@
 	</div>
 
 	<input class="back-btn" type="button" value="<< back" onClick="history.go(-1);">
-	<h1 class="gametitle"> EXPLODING KITTENS </h1>
+	<h1 class="gametitle"> {{name}} </h1>
 
 	<button class="buy-game"
-		onclick="window.open('https://www.amazon.com/Exploding-Kittens-LLC-EKG-ORG1-1-Card/dp/B010TQY7A8','_blank');">Buy</button>
-	<p class="game-rating">Rating 4.6/5</p>
-	<img class="gamepic" src="https://i5.walmartimages.ca/images/Enlarge/957/107/6000199957107.jpg"></img>
+		onclick="window.open('{{buyURL}}','_blank');">Buy</button>
+	<p class="game-rating">Rating: {{rating}}</p>
+	<img class="gamepic" src="{{imageURL}}"></img>
 
-	<p class="gamedescription">Exploding kittens is a card game for people who are into kittens and explosions and laser
-		beams and sometimes goats. In this highly-strategic, kitty-powered version of Russian roulette, players draw
-		cards until someone draws an exploding kitten, at which point They explode, they are Dead, and they are out of
-		the game -- unless that player has a defuse card, which can defuse the kitten using things like laser pointers,
-		belly rubs, and catnip sandwiches. All of the other cards in the deck are used to move, mitigate, or avoid the
-		exploding kittens.</p>
+	<p class="gamedescription">{{game-description}}</p>
 
-	<a class="gamemanual" target="_blank"
-		href="https://explodingkittens.com/downloads/rules/Exploding-Kittens_Rules.pdf">Link To Manual</a>
+	<a class="gamemanual" target="_blank" href="{{manualPDF}}">Link To Manual</a>
 
-	<iframe class="gamevid" width="240" height="160" src="https://www.youtube.com/embed/kAkRKuv5Rts">
+	<iframe class="gamevid" width="240" height="160" src="{{tutorialVid}}">
 	</iframe>
 
 </body>
