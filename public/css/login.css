@@ -1,0 +1,79 @@
+html {
+    overflow: scroll;
+}
+
+.topimg {
+    max-width: 100%;
+    height: auto;
+}
+
+.header {
+    display: inline;
+}
+
+.headertxt {
+    font-family: "Times New Roman", Times, serif;
+    margin-left: 200px;
+    font-weight: bold;
+    position: relative;
+}
+
+.description {
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+}
+
+.centerimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fb-login-button {
+    display: table !important;
+    margin: auto;
+}
+
+.icons {
+    display: inline;
+}
+
+@media screen and (max-width: 812px) {
+    .topimg {
+        width: 15%;
+    }
+    .topimgbig {
+        width: 12%;
+    }
+    .header {
+        margin-top: 15px;
+    }
+    .headertxt {
+        font-size: 40px;
+        margin-left: 1px;
+        margin-right: 1px;
+        top: 40px;
+    }
+    .description {
+        font-size: 20px;
+        margin-top: 10px;
+        text-align: center;
+    }
+    .centerimg {
+        width: 70%;
+        margin-top: 50px;
+    }
+    .fb-login-button {
+        margin-top: 100px;
+    }
+    .icons {
+        margin-top: 180px;
+        width: 55px;
+    }
+    .fb {
+        margin-left: 135px;
+    }
+    .insta {
+        margin-left: 10px;
+    }
+}

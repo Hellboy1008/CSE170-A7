@@ -1,0 +1,31 @@
+{
+    "games": [{
+        "name": "THE SETTLERS OF CATAN",
+        "description": "In Catan, players are recent immigrants to the newly populated island of Catan. Expand your colony through the building of settlements, roads, and villages by harvesting commodities from the land around you.",
+        "imageURL": "https://crowscastle.com/375-large_default/the-settlers-of-catan.jpg",
+        "buyURL": "https://www.amazon.com/Catan-Studios-cantan2017/dp/B00U26V4VQ?ref_=fsclp_pl_dp_1",
+        "viewURL": "/The_Settlers_Of_Catan",
+        "rating": "4.8/5"
+    }, {
+        "name": "EXPLODING KITTENS",
+        "description": "Exploding Kittens is a highly strategic kitty-powered version of Russian Roulette. Players take turns drawing cards until someone draws an exploding kitten and loses the game.",
+        "imageURL": "https://i5.walmartimages.ca/images/Enlarge/957/107/6000199957107.jpg",
+        "buyURL": "https://www.amazon.com/Exploding-Kittens-LLC-EKG-ORG1-1-Card/dp/B010TQY7A8",
+        "viewURL": "/Exploding_Kittens",
+        "rating": "4.6/5"
+    }, {
+        "name": "MONOPOLY",
+        "description": "The worlds most popular board game where you learn to buy real estate, collect rents, and build hotels - just don't go broke! Ideal for ages 8 and up. Perfect for 2-8 players.",
+        "imageURL": "https://images-na.ssl-images-amazon.com/images/I/81qy%2BMXuxDL._AC_SL1392_.jpg",
+        "buyURL": "https://www.amazon.com/Hasbro-00009-482-Monopoly-Board/dp/B00CV5PN2W",
+        "viewURL": "/Monopoly",
+        "rating": "4.5/5"
+    }, {
+        "name": "COUP",
+        "description": "In the not too distant future, the government is run for profit by a new royal class of multi-national CEOs. Out of the oppressed masses rose The Resistance, an underground organization focused on overthrowing these powerful rulers.",
+        "imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSQ3hlvXNoAJEkNEEmdpeHaPWlbOfgHQldsum7EUU0kKmNGBaF8",
+        "buyURL": "https://www.amazon.com/Indie-Boards-and-Cards-COU1IBC/dp/B00GDI4HX4",
+        "viewURL": "/Coup",
+        "rating": "4.8/5"
+    }]
+}

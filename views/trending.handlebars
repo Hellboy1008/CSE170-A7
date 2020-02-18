@@ -1,0 +1,63 @@
+<html>
+
+<head>
+
+	<title>Data Board - Trending</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/bootstrap-theme.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="css/categories.css" rel="stylesheet">
+	<script src="js/jquery-1.11.0.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/categories.js"></script>
+
+</head>
+
+<body>
+
+	<h2 class="header">DATABOARD</h2>
+
+	<form class="header searchbar" action="#">
+		<input type="text" placeholder="Search..">
+		<button type="submit"><i class="fa fa-search"></i></button>
+	</form>
+
+	<div class="tabs">
+		<a href="/home">HOME</a>
+		<div class="midtab">
+			<a class="dropdown-toggle" data-toggle="dropdown">Categories</a>
+			<ul class="dropdown-menu" role="menu">
+				<li><a href="/new_releases">New Releases</a></li>
+				<li><a href="/trending">Trending</a></li>
+				<li><a href="/party">Party</a></li>
+				<li><a href="/family">Family</a></li>
+				<li><a href="/card">Card</a></li>
+				<li><a class="kids" href="/kids">Kids</a></li>
+			</ul>
+		</div>
+		<a href="/contact">CONTACT</a>
+	</div>
+
+	<input class="back-btn" type="button" value="<< back" onClick="history.go(-1);">
+	<h1 class="category-title"> TRENDING </h1>
+
+	{{#each games}}
+	<div class="game">
+		<img class="gamepic" src="{{imageURL}}"></img>
+		<p class="gamedescription">
+			<span class="gametitle">{{name}}</span>
+			<br><br>
+			{{description}}
+		</p>
+	</div>
+
+	<button class="user-btn" onclick="window.location.href = '{{viewURL}}';">View</button>
+	<button class="user-btn buy-game" onclick="window.open('{{buyURL}}','_blank');">Buy</button>
+	<p class="game-rating">Rating: {{rating}}</p>
+	{{/each}}
+
+</body>
+
+</html>
