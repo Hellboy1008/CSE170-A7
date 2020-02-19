@@ -12,7 +12,7 @@
 	<link href="css/home.css" rel="stylesheet">
 	<script src="js/jquery-1.11.0.js"></script>
 	<script src="js/bootstrap.js"></script>
-	<script src="/js/facebook.js"></script>
+	<script src="js/facebook.js"></script>
 	<script src="js/home.js"></script>
 
 </head>
@@ -43,9 +43,9 @@
 	<a class="links linksbot trending" href="/trending">Trending</a>
 	<a class="links linksbot contact" href="/contact">Contact Us</a>
 
-	<form class="searchbar" action="#">
-		<input type="text" placeholder="Search for games...">
-		<button type="submit"><i class="fa fa-search"></i></button>
+	<form class="searchbar" onclick="return false">
+		<input id="search-bar" type="text" placeholder="Search for games...">
+		<button class="search-btn" type="submit"><i class="fa fa-search"></i></button>
 	</form>
 
 	<a target="_blank" href="https://www.facebook.com">
