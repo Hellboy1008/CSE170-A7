@@ -2,14 +2,21 @@ html {
     overflow: scroll;
 }
 
+.header-bar {
+    background-image: linear-gradient(to bottom, #feada6 0%, #f5efef 100%);
+}
+
 .header {
     display: inline-block;
-    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
 }
 
 .searchbar input[type=text] {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
     padding: 10px;
-    font-size: 17px;
+    font-size: 11.5px;
     border: 1px solid grey;
     float: left;
     width: 80%;
@@ -41,6 +48,9 @@ html {
 .tabs {
     display: inline-block;
     position: relative;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    width: 100%;
 }
 
 .tabs a {
@@ -51,14 +61,10 @@ html {
     display: inline-block;
 }
 
-.dropdown-toggle {
-    text-transform: uppercase;
-}
-
 .gametitle {
     text-align: center;
-    font-weight: bold;
-    text-decoration: underline;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
 }
 
 .buy-game {
@@ -66,18 +72,20 @@ html {
     margin: 0;
     cursor: pointer;
     border: 1px transparent;
-    font: bold 16px arial, helvetica, sans-serif;
-    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+    background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
     color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
 }
 
 .buy-game:focus {
-    background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+    background-image: linear-gradient(to right, #f78ca0 0%, #f9748f 19%, #fd868c 60%, #fe9a8b 100%);
 }
 
 .game-rating {
     display: inline-flex;
-    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
 }
 
 .gamepic {
@@ -87,6 +95,8 @@ html {
 
 .gamedescription {
     text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
 }
 
 .gamemanual {
@@ -94,6 +104,8 @@ html {
     margin: auto;
     color: #0047ab;
     text-decoration: underline;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
 }
 
 .gamevid {
@@ -102,16 +114,23 @@ html {
 }
 
 @media screen and (max-width: 812px) {
+    body {
+        margin-bottom: 15px;
+    }
+    .header-bar {
+        padding-bottom: 10px;
+    }
     .header {
         margin-top: 30px;
         margin-left: 15px;
         position: absolute;
     }
     .searchbar {
-        width: 140px;
+        width: 150px;
         position: relative;
         margin-top: 35px;
         margin-left: 220px;
+        left: -20px;
     }
     .searchbar input {
         height: 15px;
@@ -127,39 +146,43 @@ html {
         right: 2px;
     }
     .tabs {
-        margin-top: 20px;
-        margin-left: 20px;
+        padding-top: 10px;
         padding-left: 5px;
         padding-right: 5px;
-        border: 2px solid black;
+        border-radius: 4px;
     }
     .tabs a {
         font-size: 20px;
         text-align: center;
-        margin-left: 2px;
-        margin-right: 2px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .home-tab {
+        padding-left: 20px;
     }
     .midtab {
-        padding-left: 2px;
-        padding-right: 3px;
-        border-left: 2px solid black;
-        border-right: 2px solid black;
+        padding-left: 18px;
+        padding-right: 18px;
     }
     .dropdown-menu {
-        min-width: 140px;
-        left: 75px;
-        border-radius: 0px;
-        border-left: 2px solid black;
-        border-right: 2px solid black;
+        min-width: 90px;
+        left: 117px;
+        border-radius: 4px;
         padding-bottom: 0px;
+        background-image: linear-gradient(to top, #feada6 0%, #f5efef 100%);
+        border: 0px;
     }
     .dropdown-menu a {
-        font-size: 14px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 300 !important;
+        font-size: 12px;
         color: black !important;
-        font-weight: 400 !important;
-        border-bottom: 2px solid black;
         margin: 0px;
         margin-bottom: 5px;
+    }
+    .dropdown-menu li>a {
+        padding-left: 10px;
+        padding-right: 10px;
     }
     .dropdown-menu .kids {
         margin-bottom: 0px;

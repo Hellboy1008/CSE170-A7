@@ -8,52 +8,63 @@
 	<link href="css/bootstrap.css" rel="stylesheet">
 	<link href="css/bootstrap-theme.css" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
 	<link href="css/contact.css" rel="stylesheet">
 	<script src="js/jquery-1.11.0.js"></script>
 	<script src="js/bootstrap.js"></script>
+	<script src="js/searchbar.js"></script> 
+	<script src="js/contact.js"></script>
 
 </head>
 
 <body>
 
-	<h2 class="header">DATABOARD</h2>
+	<div class="header-bar">
+		<h2 class="header">DATABOARD</h2>
 
-	<form class="header searchbar" action="#">
-		<input type="text" placeholder="Search..">
-		<button type="submit"><i class="fa fa-search"></i></button>
-	</form>
+		<form class="header searchbar" onclick="return false">
+			<input id="search-bar" type="text" placeholder="Search for games...">
+			<button class="search-btn" type="submit"><i class="fa fa-search"></i></button>
+		</form>
 
-	<div class="tabs">
-		<a href="/home">HOME</a>
-		<div class="midtab">
-			<a class="dropdown-toggle" data-toggle="dropdown">Categories</a>
-			<ul class="dropdown-menu" role="menu">
-				<li><a href="/new_releases">New Releases</a></li>
-				<li><a href="/trending">Trending</a></li>
-				<li><a href="/party">Party</a></li>
-				<li><a href="/family">Family</a></li>
-				<li><a href="/card">Card</a></li>
-				<li><a class="kids" href="/kids">Kids</a></li>
-			</ul>
+		<div class="tabs">
+			<a class="home-tab" href="/home">Home</a>
+			<div class="midtab">
+				<a class="dropdown-toggle" data-toggle="dropdown">Categories</a>
+				<ul class="dropdown-menu" role="menu">
+					<li><a href="/new_releases">New Releases</a></li>
+					<li><a href="/trending">Trending</a></li>
+					<li><a href="/party">Party</a></li>
+					<li><a href="/family">Family</a></li>
+					<li><a href="/card">Card</a></li>
+					<li><a class="kids" href="/kids">Kids</a></li>
+				</ul>
+			</div>
+			<a href="/contact">Contact Us</a>
 		</div>
-		<a href="/contact">CONTACT</a>
 	</div>
 
-	<input class="back-btn" type="button" value="<< back" onClick="history.go(-1);">
-	<h1 class="contact-title"> CONTACT </h1>
+	<input class="back-btn" type="image" onclick="history.go(-1);"
+		src="https://cdn3.iconfinder.com/data/icons/mobile-friendly-ui/100/back_arrow-512.png" width="30px"
+		height="30px">
+
+	<h1 class="contact-title">Contact Us!</h1>
+
+	<p class="contact-description">If you would like a game to be added to the database or have any other questions or
+		inquiries, please contact us using this form!</p>
 
 	<div class="contact-form">
-		<form action="#">
-			<label>First Name</label>
-			<input class="user-input" type="text" placeholder="Your name..">
+		<form onclick="return false">
+			<label>Name</label>
+			<input id="form-name" class="user-input" type="text" placeholder="Your name..">
 
-			<label>Last Name</label>
-			<input class="user-input" type="text" placeholder="Your last name..">
+			<label>Topic of Inquiry</label>
+			<input id="form-topic" class="user-input" type="text" placeholder="Topic...">
 
 			<label>Subject</label>
-			<textarea class="user-input user-response" placeholder="Write something.."></textarea>
+			<textarea id="form-message" class="user-input user-response" placeholder="Write your message here ..."></textarea>
 
-			<input class="submit-btn" type="submit">
+			<input class="submit-btn" type="submit" onclick="sendMail();">
 		</form>
 	</div>
 

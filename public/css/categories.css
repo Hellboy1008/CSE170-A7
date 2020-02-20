@@ -141,6 +141,7 @@ html {
         right: 2px;
     }
     .tabs {
+        padding-top: 10px;
         padding-left: 5px;
         padding-right: 5px;
         border-radius: 4px;
@@ -159,20 +160,24 @@ html {
         padding-right: 18px;
     }
     .dropdown-menu {
-        min-width: 140px;
-        left: 75px;
-        border-radius: 0px;
-        border-left: 2px solid black;
-        border-right: 2px solid black;
+        min-width: 90px;
+        left: 117px;
+        border-radius: 4px;
         padding-bottom: 0px;
+        background-image: linear-gradient(to top, #feada6 0%, #f5efef 100%);
+        border: 0px;
     }
     .dropdown-menu a {
-        font-size: 14px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 300 !important;
+        font-size: 12px;
         color: black !important;
-        font-weight: 400 !important;
-        border-bottom: 2px solid black;
         margin: 0px;
         margin-bottom: 5px;
+    }
+    .dropdown-menu li>a {
+        padding-left: 10px;
+        padding-right: 10px;
     }
     .dropdown-menu .kids {
         margin-bottom: 0px;
