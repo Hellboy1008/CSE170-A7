@@ -1,15 +1,15 @@
 {
     "title": "Card Games",
     "games": [{
-        "name": "The Settlers of Catan",
-        "buyURL": "https://www.amazon.com/Catan-Studios-cantan2017/dp/B00U26V4VQ?ref_=fsclp_pl_dp_1",
-        "category-description": "In Catan, players are recent immigrants to the newly populated island of Catan. Expand your colony through the building of settlements, roads, and villages by harvesting commodities from the land around you.",
-        "game-description": "The Settlers of Catan from Mayfair Games is an award-winning strategy game where players collect resources and use them to build roads, settlements and cities on their way to victory. The board itself is variable, making each game a little different from the next.",
-        "imageURL": "https://crowscastle.com/375-large_default/the-settlers-of-catan.jpg",
-        "manualPDF": "https://www.catan.com/service/game-rules",
-        "tutorialVid": "https://www.youtube.com/embed/cPhX_1RiwEg",
+        "name": "Cards Against Humanity",
+        "buyURL": "https://www.amazon.com/Cards-Against-Humanity-LLC-CAHUS/dp/B004S8F7QM",
+        "category-description": "Cards Against Humanity is a party game for horrible people. The game is simple. Each round, one player asks a question from a black card, and everyone else answers with their funniest white card. (This is the main game. Buy this first.)",
+        "game-description": "Cards Against Humanity is a party game for horrible people. Unlike most of the party games you've played before, Cards Against Humanity is as despicable and awkward as you and your friends. The game is simple. Each round, one player asks a question from a Black Card, and everyone else answers with their funniest White Card. Includes 550 cards (460 white, 90 black).",
+        "imageURL": "https://i5.walmartimages.com/asr/19616f7f-73b5-4fce-91ed-5a99349b7917_1.ae33d245a9c99f98f67be8e0d1c674d1.jpeg",
+        "manualPDF": "http://s3.amazonaws.com/cah/CAH_Rules.pdf",
+        "tutorialVid": "https://www.youtube.com/embed/9eRjn4Ken0c",
         "rating": "4.8/5",
-        "viewURL": "/The_Settlers_Of_Catan"
+        "viewURL": "/Cards_Against_Humanity"
     }, {
         "name": "Exploding Kittens",
         "buyURL": "https://www.amazon.com/Exploding-Kittens-LLC-EKG-ORG1-1-Card/dp/B010TQY7A8",
@@ -21,24 +21,24 @@
         "rating": "4.6/5",
         "viewURL": "/Exploding_Kittens"
     }, {
-        "name": "Monopoly",
-        "buyURL": "https://www.amazon.com/Hasbro-00009-482-Monopoly-Board/dp/B00CV5PN2W",
-        "category-description": "The worlds most popular board game where you learn to buy real estate, collect rents, and build hotels - just don't go broke! Ideal for ages 8 and up. Perfect for 2-8 players.",
-        "game-description": "Monopoly is a board game currently published by Hasbro. In the game, players roll two six-sided dice to move around the game board, buying and trading properties, and developing them with houses and hotels. Players collect rent from their opponents, with the goal being to drive them into bankruptcy.",
-        "imageURL": "https://images-na.ssl-images-amazon.com/images/I/81qy%2BMXuxDL._AC_SL1392_.jpg",
-        "manualPDF": "https://www.hasbro.com/common/instruct/00009.pdf",
-        "tutorialVid": "https://www.youtube.com/embed/wmZqhFO-QNE",
-        "rating": "4.5/5",
-        "viewURL": "/Monopoly"
-    }, {
-        "name": "Coup",
-        "buyURL": "https://www.amazon.com/Indie-Boards-and-Cards-COU1IBC/dp/B00GDI4HX4",
-        "category-description": "In the not too distant future, the government is run for profit by a new royal class of multi-national CEOs. Out of the oppressed masses rose The Resistance, an underground organization focused on overthrowing these powerful rulers.",
-        "game-description": "In Coup, you want to be the last player with influence in the game, with influence being represented by face-down character cards in your playing area. Each player starts the game with two coins and two influence – i.e., two face-down character cards; the fifteen card deck consists of three copies of five different characters, each with a unique set of powers.",
-        "imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSQ3hlvXNoAJEkNEEmdpeHaPWlbOfgHQldsum7EUU0kKmNGBaF8",
-        "manualPDF": "https://herebegames.com.au/rulebooks/Coup-Rules.pdf",
-        "tutorialVid": "https://www.youtube.com/embed/a8bY3zI9FL4",
+        "name": "The Resistance",
+        "buyURL": "https://www.amazon.com/The-Resistance-Dystopian-Universe/dp/B008A2BA8G",
+        "category-description": "The Resistance pits a small group of resistance fighters against a powerful and corrupt government. The resistance has launched a series of bold and daring missions to bring the government to its knees.",
+        "game-description": "The Resistance is a party game of social deduction. It is designed for five to ten players, lasts about 30 minutes, and has no player elimination. The Resistance is inspired by Mafia/Werewolf, yet it is unique in its core mechanics, which increase the resources for informed decisions, intensify player interaction, and eliminate player elimination.",
+        "imageURL": "https://static.slickdealscdn.com/attachment/1/2/1/9/8/0/7/6501271.attach",
+        "manualPDF": "https://rulebook.io/games/the-resistance/rules/",
+        "tutorialVid": "https://www.youtube.com/embed/DUENzjE9Jwg",
         "rating": "4.8/5",
-        "viewURL": "/Coup"
+        "viewURL": "/The_Resistance"
+    }, {
+        "name": "UNO",
+        "buyURL": "https://www.amazon.com/Mattel-Games-42003-Card-Game/dp/B00004TZY8",
+        "category-description": "Easy to pick up...impossible to put down. Play by matching color or number, or play an action card against your opponent. When you're down to one card, don't forget to yell UNO! Contains 108 cards and instructions. For 2 to 10 players. Ages 7 and older.",
+        "game-description": "Now the classic card game of matching colors and numbers comes with customizable Wild Cards for added excitement! Players take turns racing to get rid of all their cards by matching a card in their hand with the current card shown on top of the deck either by color or number. Special Action cards deliver game-changing moments and help defeat opponents! Use the Swap Hands card to change hands with any other opponent and write your own rules using the 3 customizable (and erasable) Wild Cards! ",
+        "imageURL": "https://cdn.shopify.com/s/files/1/1717/0191/products/910Nk285jQL._SL1500.jpg?v=1557522908",
+        "manualPDF": "https://service.mattel.com/instruction_sheets/42001pr.pdf",
+        "tutorialVid": "https://www.youtube.com/embed/_CvaIyRE1Tw",
+        "rating": "4.8/5",
+        "viewURL": "/UNO"
     }]
 }

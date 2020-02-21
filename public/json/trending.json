@@ -1,44 +1,44 @@
 {
     "title": "Trending",
     "games": [{
-        "name": "The Settlers of Catan",
-        "buyURL": "https://www.amazon.com/Catan-Studios-cantan2017/dp/B00U26V4VQ?ref_=fsclp_pl_dp_1",
-        "category-description": "In Catan, players are recent immigrants to the newly populated island of Catan. Expand your colony through the building of settlements, roads, and villages by harvesting commodities from the land around you.",
-        "game-description": "The Settlers of Catan from Mayfair Games is an award-winning strategy game where players collect resources and use them to build roads, settlements and cities on their way to victory. The board itself is variable, making each game a little different from the next.",
-        "imageURL": "https://crowscastle.com/375-large_default/the-settlers-of-catan.jpg",
-        "manualPDF": "https://www.catan.com/service/game-rules",
-        "tutorialVid": "https://www.youtube.com/embed/cPhX_1RiwEg",
+        "name": "Carcassonne",
+        "buyURL": "https://www.amazon.com/Z-Man-Games-ZM7810-Carcassonne/dp/B00NX627HW",
+        "category-description": "Carcassonne is the perfect introduction to the modern world of board games. With its simple rules (place a tile, place a deeply, score points),should be part of everyone's collection.",
+        "game-description": "Carcassonne is a tile-placement game in which the players draw and place a tile with a piece of southern French landscape on it. The tile might feature a city, a road, a cloister, grassland or some combination thereof, and it must be placed adjacent to tiles that have already been played, in such a way that cities are connected to cities, roads to roads, etcetera.",
+        "imageURL": "https://images-na.ssl-images-amazon.com/images/I/91PzP-NMTeL._AC_SL1500_.jpg",
+        "manualPDF": "https://images.zmangames.com/filer_public/d5/20/d5208d61-8583-478b-a06d-b49fc9cd7aaa/zm7810_carcassonne_rules.pdf",
+        "tutorialVid": "https://www.youtube.com/embed/-74FYj21JVg",
         "rating": "4.8/5",
-        "viewURL": "/The_Settlers_Of_Catan"
+        "viewURL": "/Carcassonne"
     }, {
-        "name": "Exploding Kittens",
-        "buyURL": "https://www.amazon.com/Exploding-Kittens-LLC-EKG-ORG1-1-Card/dp/B010TQY7A8",
-        "category-description": "Exploding Kittens is a highly strategic kitty-powered version of Russian Roulette. Players take turns drawing cards until someone draws an exploding kitten and loses the game.",
-        "game-description": "Exploding kittens is a card game for people who are into kittens and explosions and laser beams and sometimes goats. In this highly-strategic, kitty-powered version of Russian roulette, players draw cards until someone draws an exploding kitten, at which point They explode, they are Dead, and they are out of the game -- unless that player has a defuse card, which can defuse the kitten using things like laser pointers, belly rubs, and catnip sandwiches. All of the other cards in the deck are used to move, mitigate, or avoid the exploding kittens.",
-        "imageURL": "https://i5.walmartimages.ca/images/Enlarge/957/107/6000199957107.jpg",
-        "manualPDF": "https://explodingkittens.com/downloads/rules/Exploding-Kittens_Rules.pdf",
-        "tutorialVid": "https://www.youtube.com/embed/kAkRKuv5Rts",
+        "name": "One Night Ultimate Werewolf",
+        "buyURL": "https://www.amazon.com/Bezier-Games-ONUWBEZ-Ultimate-Werewolf/dp/B00HS7GG5G",
+        "category-description": "One Night Ultimate Werewolf is a fast paced game where everyone gets to be a different role. In the course of only one night and the following morning, the players will determine who among them is a werewolf...hopefully.",
+        "game-description": "One Night Ultimate Werewolf is a fast game for 3-10 players in which everyone gets a role: One of the dastardly Werewolves, the tricky Troublemaker, the helpful Seer, or one of a dozen different characters, each with a special ability. In the course of a single morning, your village will decide who is a werewolf...because all it takes is lynching one werewolf to win!",
+        "imageURL": "https://images-na.ssl-images-amazon.com/images/I/712hH3ke6wL._AC_SL1197_.jpg",
+        "manualPDF": "https://www.fgbradleys.com/rules/rules2/OneNightUltimateWerewolf-rules.pdf",
+        "tutorialVid": "https://www.youtube.com/embed/XsP6LvZQpLk",
         "rating": "4.6/5",
-        "viewURL": "/Exploding_Kittens"
+        "viewURL": "/One_Night_Ultimate_Werewolf"
     }, {
-        "name": "Monopoly",
-        "buyURL": "https://www.amazon.com/Hasbro-00009-482-Monopoly-Board/dp/B00CV5PN2W",
-        "category-description": "The worlds most popular board game where you learn to buy real estate, collect rents, and build hotels - just don't go broke! Ideal for ages 8 and up. Perfect for 2-8 players.",
-        "game-description": "Monopoly is a board game currently published by Hasbro. In the game, players roll two six-sided dice to move around the game board, buying and trading properties, and developing them with houses and hotels. Players collect rent from their opponents, with the goal being to drive them into bankruptcy.",
-        "imageURL": "https://images-na.ssl-images-amazon.com/images/I/81qy%2BMXuxDL._AC_SL1392_.jpg",
-        "manualPDF": "https://www.hasbro.com/common/instruct/00009.pdf",
-        "tutorialVid": "https://www.youtube.com/embed/wmZqhFO-QNE",
-        "rating": "4.5/5",
-        "viewURL": "/Monopoly"
-    }, {
-        "name": "Coup",
-        "buyURL": "https://www.amazon.com/Indie-Boards-and-Cards-COU1IBC/dp/B00GDI4HX4",
-        "category-description": "In the not too distant future, the government is run for profit by a new royal class of multi-national CEOs. Out of the oppressed masses rose The Resistance, an underground organization focused on overthrowing these powerful rulers.",
-        "game-description": "In Coup, you want to be the last player with influence in the game, with influence being represented by face-down character cards in your playing area. Each player starts the game with two coins and two influence – i.e., two face-down character cards; the fifteen card deck consists of three copies of five different characters, each with a unique set of powers.",
-        "imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSQ3hlvXNoAJEkNEEmdpeHaPWlbOfgHQldsum7EUU0kKmNGBaF8",
-        "manualPDF": "https://herebegames.com.au/rulebooks/Coup-Rules.pdf",
-        "tutorialVid": "https://www.youtube.com/embed/a8bY3zI9FL4",
+        "name": "Ticket to Ride",
+        "buyURL": "https://www.amazon.com/Days-Wonder-DO7201-Ticket-Ride/dp/0975277324",
+        "category-description": "Ticket to Ride is an award winning, cross-country train adventure game. Players collect train cards that enable them to claim railway routes connecting cities throughout North America. The longer the routes, the more points they earn.",
+        "game-description": "With elegantly simple game play, Ticket to Ride can be learned in under 15 minutes. Players collect cards of various types of train cars they then use to claim railway routes in North America. The longer the routes, the more points they earn. Additional points come to those who fulfill Destination Tickets – goal cards that connect distant cities; and to the player who builds the longest continuous route.",
+        "imageURL": "https://target.scene7.com/is/image/Target/GUEST_50038364-d5ad-45b5-bde1-e92be21a39be?wid=488&hei=488&fmt=pjpeg",
+        "manualPDF": "https://ncdn0.daysofwonder.com/tickettoride/en/img/tt_rules_2015_en.pdf",
+        "tutorialVid": "https://www.youtube.com/embed/yPGLlaGrShY",
         "rating": "4.8/5",
-        "viewURL": "/Coup"
+        "viewURL": "/   "
+    }, {
+        "name": "What Do You Meme?",
+        "buyURL": "https://www.amazon.com/What-Do-You-Meme-Party/dp/B01MRG7T0D",
+        "category-description": "Think you've got what it takes to out-meme your friends IRL? Compete to create the funniest meme by pairing Caption Cards with the Photo Card in play. A rotating judge picks the best combination each round.",
+        "game-description": "What Do You Meme is the adult party game taking the internet by storm. Find out who will be crowned Meme Queen/King by competing with friends (or family if you’re brave) to match photo cards with caption cards, creating your own outrageously funny meme combinations. It’s the perfect excuse to call up the crew, and get everyone together for guaranteed laughs.",
+        "imageURL": "https://www.meijer.com/content/dam/meijer/product/0081/08/1603/01/0081081603017_0_A1C1_1200.png",
+        "manualPDF": "http://www.boardgamecapital.com/game_rules/what-do-you-meme.pdf",
+        "tutorialVid": "https://www.youtube.com/embed/PD-RRCenQUg",
+        "rating": "4.6/5",
+        "viewURL": "/What_Do_You_Meme"
     }]
 }

@@ -1,25 +1,15 @@
 {
     "title": "Kids Games",
     "games": [{
-        "name": "The Settlers of Catan",
-        "buyURL": "https://www.amazon.com/Catan-Studios-cantan2017/dp/B00U26V4VQ?ref_=fsclp_pl_dp_1",
-        "category-description": "In Catan, players are recent immigrants to the newly populated island of Catan. Expand your colony through the building of settlements, roads, and villages by harvesting commodities from the land around you.",
-        "game-description": "The Settlers of Catan from Mayfair Games is an award-winning strategy game where players collect resources and use them to build roads, settlements and cities on their way to victory. The board itself is variable, making each game a little different from the next.",
-        "imageURL": "https://crowscastle.com/375-large_default/the-settlers-of-catan.jpg",
-        "manualPDF": "https://www.catan.com/service/game-rules",
-        "tutorialVid": "https://www.youtube.com/embed/cPhX_1RiwEg",
+        "name": "Clue",
+        "buyURL": "https://www.amazon.com/Hasbro-N-A-Clue-Game/dp/B07BMJPPXV",
+        "category-description": "River has been betrayed and handed over to the Alliance. Now with Clue: Firefly Edition, help the Serenity crew discover who is working with the Alliance, what they used to betray River and where on Serenity the kidnapping took place.",
+        "game-description": "The Clue game gets an update with a card-revealing mirror that holds the answers to the mystery. In this suspenseful game, players have to find out who's responsible for murdering Mr. Boddy of Tudor Mansion in his own home. Get the scoop on the mansion's rooms, weapons, and guests and start detecting! Was it Plum with the wrench in the library? Or Green with the candlestick in the study? Eliminate information throughout the game in this whodunit. When a player is ready to make an accusation, they secretly press the button on the mirror to reveal Who, What, and Where. A correct accusation wins the game!",
+        "imageURL": "https://cdn-consumercrafts.netdna-ssl.com/Content/Images/ProductImages/XL/Alt2/HAS5826.jpg",
+        "manualPDF": "https://www.fgbradleys.com/rules/Clue.pdf",
+        "tutorialVid": "https://www.youtube.com/embed/sg_57S4l5Ng",
         "rating": "4.8/5",
-        "viewURL": "/The_Settlers_Of_Catan"
-    }, {
-        "name": "Exploding Kittens",
-        "buyURL": "https://www.amazon.com/Exploding-Kittens-LLC-EKG-ORG1-1-Card/dp/B010TQY7A8",
-        "category-description": "Exploding Kittens is a highly strategic kitty-powered version of Russian Roulette. Players take turns drawing cards until someone draws an exploding kitten and loses the game.",
-        "game-description": "Exploding kittens is a card game for people who are into kittens and explosions and laser beams and sometimes goats. In this highly-strategic, kitty-powered version of Russian roulette, players draw cards until someone draws an exploding kitten, at which point They explode, they are Dead, and they are out of the game -- unless that player has a defuse card, which can defuse the kitten using things like laser pointers, belly rubs, and catnip sandwiches. All of the other cards in the deck are used to move, mitigate, or avoid the exploding kittens.",
-        "imageURL": "https://i5.walmartimages.ca/images/Enlarge/957/107/6000199957107.jpg",
-        "manualPDF": "https://explodingkittens.com/downloads/rules/Exploding-Kittens_Rules.pdf",
-        "tutorialVid": "https://www.youtube.com/embed/kAkRKuv5Rts",
-        "rating": "4.6/5",
-        "viewURL": "/Exploding_Kittens"
+        "viewURL": "/Clue"
     }, {
         "name": "Monopoly",
         "buyURL": "https://www.amazon.com/Hasbro-00009-482-Monopoly-Board/dp/B00CV5PN2W",
@@ -31,14 +21,24 @@
         "rating": "4.5/5",
         "viewURL": "/Monopoly"
     }, {
-        "name": "Coup",
-        "buyURL": "https://www.amazon.com/Indie-Boards-and-Cards-COU1IBC/dp/B00GDI4HX4",
-        "category-description": "In the not too distant future, the government is run for profit by a new royal class of multi-national CEOs. Out of the oppressed masses rose The Resistance, an underground organization focused on overthrowing these powerful rulers.",
-        "game-description": "In Coup, you want to be the last player with influence in the game, with influence being represented by face-down character cards in your playing area. Each player starts the game with two coins and two influence – i.e., two face-down character cards; the fifteen card deck consists of three copies of five different characters, each with a unique set of powers.",
-        "imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSQ3hlvXNoAJEkNEEmdpeHaPWlbOfgHQldsum7EUU0kKmNGBaF8",
-        "manualPDF": "https://herebegames.com.au/rulebooks/Coup-Rules.pdf",
-        "tutorialVid": "https://www.youtube.com/embed/a8bY3zI9FL4",
+        "name": "Scrabble",
+        "buyURL": "https://www.amazon.com/Hasbro-Gaming-A8166-Scrabble-Game/dp/B00IL5XY9K",
+        "category-description": "Scrabble, the classic crossword game, is full-on fun for friends and family. You can feel the excitement begin as soon as you rack up your letters, choose a great word, and hope to land on a triple-word score.",
+        "game-description": "Put letters together, build words, add up your points and win! This classic game features the classic Scrabble equipment for a big-time word-on-word showdown. Do you see a word your opponent hasn't seen. A double or triple letter or word space that will let you earn big points. Could the luck of the draw win you the game. Use your letters to score points and challenge your family and friends. It’s your word against theirs! Scrabble and all related characters are trademarks of Hasbro.",
+        "imageURL": "https://store.schoolspecialty.com/OA_HTML/xxssi_ibeGetWCCImage.jsp?docName=F1606890&Rendition=Large",
+        "manualPDF": "https://scrabble.hasbro.com/en-us/rules",
+        "tutorialVid": "https://www.youtube.com/embed/K1KgvZwwJqo",
         "rating": "4.8/5",
-        "viewURL": "/Coup"
+        "viewURL": "/Scrabble"
+    }, {
+        "name": "The Game of Life",
+        "buyURL": "https://www.amazon.com/The-Game-of-Life/dp/B00CM2IFT2",
+        "category-description": "The game simulates a person's travels through his or her life, from college to retirement, with jobs, marriage, and possible children along the way. Two to four or six players can participate in one game.",
+        "game-description": "Do you have what it takes to win The Game of Life game? You do it by choosing the life you want! Go to college, take the family path, have kids, or see what happens when unexpected twists change the game. Will you receive a fortune and lose it as quickly as you got it? Will you need a bank loan to pay a debt? Once everyone reaches the end of the game at retirement, everyone pays their debts and adds up their wealth. The player with the most money wins the game, so make sure it’s you! It’s all your choice when you play The Game of Life!",
+        "imageURL": "https://images-na.ssl-images-amazon.com/images/I/71Qec8xXstL._AC_SL1361_.jpg",
+        "manualPDF": "https://www.hasbro.com/common/instruct/life.pdf",
+        "tutorialVid": "https://www.youtube.com/embed/3ntNilTsGog",
+        "rating": "4.3/5",
+        "viewURL": "/The_Game_Of_Life"
     }]
 }

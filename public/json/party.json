@@ -1,36 +1,6 @@
 {
     "title": "Party Games",
     "games": [{
-        "name": "The Settlers of Catan",
-        "buyURL": "https://www.amazon.com/Catan-Studios-cantan2017/dp/B00U26V4VQ?ref_=fsclp_pl_dp_1",
-        "category-description": "In Catan, players are recent immigrants to the newly populated island of Catan. Expand your colony through the building of settlements, roads, and villages by harvesting commodities from the land around you.",
-        "game-description": "The Settlers of Catan from Mayfair Games is an award-winning strategy game where players collect resources and use them to build roads, settlements and cities on their way to victory. The board itself is variable, making each game a little different from the next.",
-        "imageURL": "https://crowscastle.com/375-large_default/the-settlers-of-catan.jpg",
-        "manualPDF": "https://www.catan.com/service/game-rules",
-        "tutorialVid": "https://www.youtube.com/embed/cPhX_1RiwEg",
-        "rating": "4.8/5",
-        "viewURL": "/The_Settlers_Of_Catan"
-    }, {
-        "name": "Exploding Kittens",
-        "buyURL": "https://www.amazon.com/Exploding-Kittens-LLC-EKG-ORG1-1-Card/dp/B010TQY7A8",
-        "category-description": "Exploding Kittens is a highly strategic kitty-powered version of Russian Roulette. Players take turns drawing cards until someone draws an exploding kitten and loses the game.",
-        "game-description": "Exploding kittens is a card game for people who are into kittens and explosions and laser beams and sometimes goats. In this highly-strategic, kitty-powered version of Russian roulette, players draw cards until someone draws an exploding kitten, at which point They explode, they are Dead, and they are out of the game -- unless that player has a defuse card, which can defuse the kitten using things like laser pointers, belly rubs, and catnip sandwiches. All of the other cards in the deck are used to move, mitigate, or avoid the exploding kittens.",
-        "imageURL": "https://i5.walmartimages.ca/images/Enlarge/957/107/6000199957107.jpg",
-        "manualPDF": "https://explodingkittens.com/downloads/rules/Exploding-Kittens_Rules.pdf",
-        "tutorialVid": "https://www.youtube.com/embed/kAkRKuv5Rts",
-        "rating": "4.6/5",
-        "viewURL": "/Exploding_Kittens"
-    }, {
-        "name": "Monopoly",
-        "buyURL": "https://www.amazon.com/Hasbro-00009-482-Monopoly-Board/dp/B00CV5PN2W",
-        "category-description": "The worlds most popular board game where you learn to buy real estate, collect rents, and build hotels - just don't go broke! Ideal for ages 8 and up. Perfect for 2-8 players.",
-        "game-description": "Monopoly is a board game currently published by Hasbro. In the game, players roll two six-sided dice to move around the game board, buying and trading properties, and developing them with houses and hotels. Players collect rent from their opponents, with the goal being to drive them into bankruptcy.",
-        "imageURL": "https://images-na.ssl-images-amazon.com/images/I/81qy%2BMXuxDL._AC_SL1392_.jpg",
-        "manualPDF": "https://www.hasbro.com/common/instruct/00009.pdf",
-        "tutorialVid": "https://www.youtube.com/embed/wmZqhFO-QNE",
-        "rating": "4.5/5",
-        "viewURL": "/Monopoly"
-    }, {
         "name": "Coup",
         "buyURL": "https://www.amazon.com/Indie-Boards-and-Cards-COU1IBC/dp/B00GDI4HX4",
         "category-description": "In the not too distant future, the government is run for profit by a new royal class of multi-national CEOs. Out of the oppressed masses rose The Resistance, an underground organization focused on overthrowing these powerful rulers.",
@@ -40,5 +10,35 @@
         "tutorialVid": "https://www.youtube.com/embed/a8bY3zI9FL4",
         "rating": "4.8/5",
         "viewURL": "/Coup"
+    }, {
+        "name": "Deception",
+        "buyURL": "https://www.amazon.com/Grey-Fox-Games-Deception-Murder/dp/B019FPQZNG",
+        "category-description": "In Deception: Murder in Hong Kong, players find themselves in a scenario of intrigue and murder, deduction and deception. One player is the Murderer, secretly choosing their weapon and the evidence they leave behind.",
+        "game-description": "One player is the Murderer, secretly choosing their weapon and the evidence they leave behind. Another is the Forensic Scientist who holds the key to convicting the criminal but is only able to express their knowledge through analysis of the scene. The rest are investigators, interpreting the clues to solve the crime – and the killer is among them. Investigators must collaborate and use their wits, their hunches, and their keen deductive insight to correctly identify the means of murder and the key evidence to convict the killer.",
+        "imageURL": "https://cdn.shopify.com/s/files/1/0921/7330/products/J6-3_MURDER_HK_M_900x900.jpg?v=1568404952",
+        "manualPDF": "https://www.ultraboardgames.com/deception-murder-in-hong-kong/game-rules.php",
+        "tutorialVid": "https://www.youtube.com/embed/ojhUGtnyecA",
+        "rating": "4.8/5",
+        "viewURL": "/Deception"
+    }, {
+        "name": "Dixit",
+        "buyURL": "https://www.amazon.com/Asmodee-DIX01-Dixit/dp/2914849656",
+        "category-description": "Every picture tells a story – but what story will your picture tell? Dixit is the lovingly illustrated game of creative guesswork, where your imagination unlocks the tale. In this award-winning board game, players will use the beautiful imagery on their cards to bluff their opponents and guess which image matches the story.",
+        "game-description": "Every turn, the storyteller will call out a short phrase or word to match the image on his card. Then each player will choose the card that most closely matches that phrase, and then everyone must guess which card the storyteller saw when he invented his brief tale. Correctly guess the storyteller’s card, and you’ll move ahead. Convince everyone else that your card is best, and you’ll do even better.",
+        "imageURL": "https://cf.geekdo-images.com/opengraph/img/0Pu9oJx4vlXsl5sHTdjcBP7VHBM=/fit-in/1200x630/pic3483909.jpg",
+        "manualPDF": "https://www.ultraboardgames.com/dixit/game-rules.php",
+        "tutorialVid": "https://www.youtube.com/embed/Qi4MoW6NuaQ",
+        "rating": "4.8/5",
+        "viewURL": "/Dixit"
+    }, {
+        "name": "Secret Hitler",
+        "buyURL": "https://www.amazon.com/Secret-Hitler/dp/B01JKD4HYC",
+        "category-description": "Secret Hitler is a dramatic game of political intrigue and betrayal set in 1930's Germany. Players are secretly divided into two teams - liberals and fascists. Known only to each other, the fascists coordinate to sow distrust and install their cold-blooded leader. The liberals must find and stop the Secret Hitler before it’s too late.",
+        "game-description": "Secret Hitler is a social deduction game for 5-10 people about finding and stopping the Secret Hitler. Players are secretly divided into two teams: the liberals, who have a majority, and the fascists, who are hidden to everyone but each other.If the liberals can learn to trust each other, they have enough votes to control the elections and save the day.But the fascists will say whatever it takes to get elected, advance their agenda, and win the game.",
+        "imageURL": "https://static01.nyt.com/images/2017/09/09/arts/09xp-secrethitler-1/merlin-to-scoop-126367670-764268-superJumbo.jpg",
+        "manualPDF": "https://secrethitler.com/assets/Secret_Hitler_Rules.pdf",
+        "tutorialVid": "https://www.youtube.com/embed/mbGXIDYdtas",
+        "rating": "4.8/5",
+        "viewURL": "/Secret_Hitler"
     }]
 }
