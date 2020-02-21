@@ -8,8 +8,9 @@ $(document).ready(function() {
  */
 function initializePage() {
     // get list of games and urls
-    gameList = gameList();
-    urlList = urlList();
+    list = getList();
+    gameList = list[0]
+    urlList = list[1];
     console.log(gameList);
     console.log(urlList);
 
@@ -49,76 +50,44 @@ function searchGame(game, gameList, urlList) {
  * Function gets list of games
  */
 
-function gameList() {
+function getList() {
     gameList = [];
-    $.getJSON("json/card.json", function(data) {
-        $.each(data.games, function(key, val) {
-            gameList.push(val.name.toLowerCase());
-        });
-    });
-    $.getJSON("json/family.json", function(data) {
-        $.each(data.games, function(key, val) {
-            gameList.push(val.name.toLowerCase());
-        });
-    });
-    $.getJSON("json/kids.json", function(data) {
-        $.each(data.games, function(key, val) {
-            gameList.push(val.name.toLowerCase());
-        });
-    });
-    $.getJSON("json/new_releases.json", function(data) {
-        $.each(data.games, function(key, val) {
-            gameList.push(val.name.toLowerCase());
-        });
-    });
-    $.getJSON("json/party.json", function(data) {
-        $.each(data.games, function(key, val) {
-            gameList.push(val.name.toLowerCase());
-        });
-    });
-    $.getJSON("json/trending.json", function(data) {
-        $.each(data.games, function(key, val) {
-            gameList.push(val.name.toLowerCase());
-        });
-    });
-    return gameList;
-}
-
-/*
- * Function gets list of url for games
- */
-
-function urlList() {
     urlList = [];
     $.getJSON("json/card.json", function(data) {
         $.each(data.games, function(key, val) {
+            gameList.push(val.name.toLowerCase());
             urlList.push(val.viewURL);
         });
     });
     $.getJSON("json/family.json", function(data) {
         $.each(data.games, function(key, val) {
+            gameList.push(val.name.toLowerCase());
             urlList.push(val.viewURL);
         });
     });
     $.getJSON("json/kids.json", function(data) {
         $.each(data.games, function(key, val) {
+            gameList.push(val.name.toLowerCase());
             urlList.push(val.viewURL);
         });
     });
     $.getJSON("json/new_releases.json", function(data) {
         $.each(data.games, function(key, val) {
+            gameList.push(val.name.toLowerCase());
             urlList.push(val.viewURL);
         });
     });
     $.getJSON("json/party.json", function(data) {
         $.each(data.games, function(key, val) {
+            gameList.push(val.name.toLowerCase());
             urlList.push(val.viewURL);
         });
     });
     $.getJSON("json/trending.json", function(data) {
         $.each(data.games, function(key, val) {
+            gameList.push(val.name.toLowerCase());
             urlList.push(val.viewURL);
         });
     });
-    return urlList;
+    return [gameList, urlList];
 }
