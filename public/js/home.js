@@ -23,6 +23,7 @@ function loadName() {
     console.log(name);
     $('.user-name').prepend('Welcome back, ');
     if (name != "null" && name != undefined) {
+        $('.user-name').text('Welcome back, ');
         $('.user-name').append(name);
     }
     $('.user-name').append('!');
